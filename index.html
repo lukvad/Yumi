@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>App name - Landing Page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script defer src="js/fontawesome-all.min.js"></script>
+	<style>
+		#section-hero {
+			background-image: url('img/3840x2160.png');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			min-height: 100vh;
+		}
+	</style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScrollSpy">
+	<nav class="navbar bg-primary navbar-dark navbar-expand-lg fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><i class="fas fa-camera-retro" aria-hidden="true"></i> App
+				name</a>
+			<button class="navbar-toggler navbar-toggler-end" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav" id="navScrollSpy">
+					<li class="nav-item">
+						<a href="#section-hero" class="nav-link">To the top</a>
+					</li>
+					<li class="nav-item">
+						<a href="#section-description" class="nav-link">Description</a>
+					</li>
+					<li class="nav-item">
+						<a href="#section-trailer" class="nav-link">Trailer</a>
+					</li>
+					<li class="nav-item">
+						<a href="#section-showcase" class="nav-link">Showcase</a>
+					</li>
+					<li class="nav-item">
+						<a href="#section-features" class="nav-link">Features</a>
+					</li>
+					<li class="nav-item">
+						<a href="#section-pricing" class="nav-link">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a href="#section-reviews" class="nav-link">Reviews</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="section-hero" class="text-center text-white d-flex justify-content-center align-items-center py-5">
+		<div class="container">
+			<h1 class="display-1 text-primary text-uppercase mt-5">App Name</h1>
+			<p class="display-4">Lorem ipsum dolor</p>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p class="lead">Laudantium, animi optio velit alias </p>
+			<p><strong>Download now on:</strong></p>
+			<a href="#0" class="btn btn-lg btn-primary mb-3 mb-sm-0 me-sm-3"><i class="fab fa-app-store-ios"
+					aria-hidden="true"></i> App Store</a>
+			<a href="#0" class="btn btn-lg btn-primary"><i class="fab fa-google-play" aria-hidden="true"></i> Google
+				Play</a>
+
+		</div>
+	</section>
+	<div class="container">
+		<section id="section-description" class="mt-5">
+			<h2 class="display-4 text-center">What is App Name</h2>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas commodi, qui aliquid magni recusandae,
+				quos soluta necessitatibus et optio adipisci eum maxime earum ullam reprehenderit, laboriosam fugiat
+				dolores in repellat?
+				Dolore ex molestias repudiandae debitis similique fugiat corporis laboriosam aut quos amet, adipisci
+				accusamus doloremque laborum placeat illo commodi quaerat architecto, ducimus distinctio. Excepturi
+				doloribus nemo atque! Inventore, accusantium qui!</p>
+
+			<p>Dolore ex molestias repudiandae debitis similique fugiat corporis laboriosam aut quos amet, adipisci
+				accusamus doloremque laborum placeat illo commodi quaerat architecto, ducimus distinctio. Excepturi
+				doloribus nemo atque! Inventore, accusantium qui! Lorem ipsum dolor sit, amet consectetur adipisicing
+				elit. Quas commodi, qui aliquid magni recusandae,
+				quos soluta necessitatibus et optio adipisci eum maxime earum ullam reprehenderit, laboriosam fugiat
+				dolores in repellat?
+			</p>
+		</section>
+		<section id="section-trailer" class="mt-5">
+			<h2 class="display-4 text-center">App Name Trailer</h2>
+			<p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+			<div class="ratio ratio-16x9">
+				<iframe src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0"></iframe>
+			</div>
+		</section>
+		<section id="section-showcase" class="mt-5">
+			<h2 class="display-4 text-center">App Name in action</h2>
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos obcaecati eos maxime
+				inventore porro, nihil architecto, facere recusandae consequuntur cum enim sed aliquam quas culpa minus
+				impedit, quam molestiae quibusdam?</p>
+			<div class="carousel slide" data-bs-ride="carousel" id="carousel">
+				<div class="carousel-indicators">
+					<button class="active" data-bs-target="#carousel" data-bs-slide-to="0" aria-label="Slide 0"
+						type="button"></button>
+					<button data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 1" type="button"></button>
+					<button data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 2" type="button"></button>
+					<button data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 3" type="button"></button>
+				</div>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active" role="option">
+						<img src="img/2220x1665-primary.png" alt="Slide #1" class="d-block img-fluid">
+						<div class="carousel-caption">
+							<h3 class="display-4">Slide Heading</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="carousel-item" role="option">
+						<img src="img/2220x1665-success.png" alt="Slide #1" class="d-block img-fluid">
+						<div class="carousel-caption">
+							<h3 class="display-4">Slide Heading</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="carousel-item" role="option">
+						<img src="img/2220x1665-danger.png" alt="Slide #1" class="d-block img-fluid">
+						<div class="carousel-caption">
+							<h3 class="display-4">Slide Heading</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="carousel-item" role="option">
+						<img src="img/2220x1665-warning.png" alt="Slide #1" class="d-block img-fluid">
+						<div class="carousel-caption">
+							<h3 class="display-4">Slide Heading</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+				<a href="#carousel" data-bs-slide="next" role="button" class="carousel-control-next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+				<a href="#carousel" data-bs-slide="prev" role="button" class="carousel-control-prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+			</div>
+		</section>
+		<section id="section-features" class="mt-5">
+			<h2 class="display-4 text-center">Features</h2>
+			<div class="row  d-flex justify-content-between text-center">
+				<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<i class="fas fa-paint-brush text-info fa-2x m-2"></i>
+					<h2 class="h4 text-center mb-4">Feature heading</h2>
+					<p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rem et iusto eius nisi
+						voluptatem saepe. </p>
+					<button class="btn btn-info" type="button">Read more...</button>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<i class="fas fa-camera fa-2x m-2 text-info"></i>
+					<h2 class="h4 text-center mb-4">Feature heading</h2>
+					<p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rem et iusto eius nisi
+						voluptatem saepe. </p>
+					<button class="btn btn-info" type="button">Read more...</button>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<i class="fas fa-phone-alt fa-2x m-2 text-info"></i>
+					<h2 class="h4 text-center mb-4">Feature heading</h2>
+					<p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rem et iusto eius nisi
+						voluptatem saepe. </p>
+					<button class="btn btn-info" type="button">Read more...</button>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<i class="fas fa-photo-video fa-2x text-info m-2"></i>
+					<h2 class="h4 text-center mb-4">Feature heading</h2>
+					<p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rem et iusto eius nisi
+						voluptatem saepe. </p>
+					<button class="btn btn-info" type="button">Read more...</button>
+				</div>
+			</div>
+		</section>
+		<section id="section-pricing" class="mt-5">
+			<h2 class="display-4 text-center">Choose your plan</h2>
+			<div class="row">
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card card-outline-success">
+						<div class="card-header bg-success text-white text-center">
+							<h2>Starter</h2>
+							<h4>Free</h4>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Ea, vitae perspiciatis, dicta impedit doloribus necessitatibus minima
+								beatae voluptates, ipsum saepe repudiandae illo dolore.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<il class="list-group-item"><i class="fas fa-paint-brush fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+							<il class="list-group-item"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+						</ul>
+						<div class="card-footer text-center">
+							<a href="#0" class="btn btn-success btn-lg">Select Plan</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card card-outline-warning">
+						<div class="card-header bg-warning text-white text-center">
+							<h2>Semi Pro</h2>
+							<h4>$1,99 / month</h4>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Ea, vitae perspiciatis, dicta impedit doloribus necessitatibus minima
+								beatae voluptates, ipsum saepe repudiandae illo dolore.</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<il class="list-group-item"><i class="fas fa-paint-brush fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+							<il class="list-group-item"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+							<il class="list-group-item"><i class="fas fa-cogs fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+						</ul>
+						<div class="card-footer text-center">
+							<a href="#0" class="btn btn-warning btn-lg">Select Plan</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 mb-4">
+					<div class="card card-outline-danger">
+						<div class="card-header bg-danger text-white text-center">
+							<h2>Pro</h2>
+							<h4>$4,99 / month</h4>
+						</div>
+						<div class="card-body">
+							<p class="card-text">Optio quasi asperiores reprehenderit modi autem possimus odio dolores
+								at sint ex aliquam?</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<il class="list-group-item"><i class="fas fa-paint-brush fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+							<il class="list-group-item"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+							<il class="list-group-item"><i class="fas fa-cogs fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+							<il class="list-group-item"><i class="fas fa-cloud fa-fw" aria-hidden="true"></i> Item
+								Description</il>
+						</ul>
+						<div class="card-footer text-center">
+							<a href="#0" class="btn btn-danger btn-lg">Select Plan</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-reviews" class="mt-5">
+			<h2 class="display-4 text-center">Reviews</h2>
+			<div class="row mb-3 d-flex justify-content-between text-center">
+				<div class="col-12 col-md-6 col-lg-3 mb-4 gx-5 gy-3">
+					<figure>
+						<blockquote class="blockquote">
+							<i class="fas fa-quote-left fa-fw text-secondary"></i> Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Quibusdam magni debitis molestiae quas ex adipisci et ratione
+							fugit voluptatum. Aliquam laudantium nemo repellat facere necessitatibus iste minus odit
+							vitae autem.
+						</blockquote>
+						<figcaption class="blockquote-footer"> Firstname Lastname <time datetime="2021-07-01">1st of
+								July 2021</time></figcaption>
+					</figure>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 mb-4 gx-5 gy-3">
+					<figure>
+						<blockquote class="blockquote">
+							<i class="fas fa-quote-left fa-fw text-secondary"></i> Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Quibusdam magni debitis molestiae quas ex adipisci et ratione
+							fugit voluptatum. Aliquam laudantium nemo repellat facere necessitatibus iste minus odit
+							vitae autem. <i class="fa-quote-right fa fw text-secondary"></i>
+						</blockquote>
+						<figcaption class="blockquote-footer"> Firstname Lastname <time datetime="2021-07-01">1st of
+								July 2021</time></figcaption>
+					</figure>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 mb-4 gx-5 gy-3">
+					<figure>
+						<blockquote class="blockquote">
+							<i class="fas fa-quote-left fa-fw text-secondary"></i> Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Quibusdam magni debitis molestiae quas ex adipisci et ratione
+							fugit voluptatum. Aliquam laudantium nemo repellat facere necessitatibus iste minus odit
+							vitae autem. <i class="fa-quote-right fa fw text-secondary"></i>
+						</blockquote>
+						<figcaption class="blockquote-footer"> Firstname Lastname <time datetime="2021-07-01">1st of
+								July 2021</time></figcaption>
+					</figure>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 mb-4 gx-5 gy-3">
+					<figure>
+						<blockquote class="blockquote">
+							<i class="fas fa-quote-left fa-fw text-secondary"></i> Lorem ipsum dolor sit amet
+							consectetur adipisicing elit. Quibusdam magni debitis molestiae quas ex adipisci et ratione
+							fugit voluptatum. Aliquam laudantium nemo repellat facere necessitatibus iste minus odit
+							vitae autem. <i class="fa-quote-right fa fw text-secondary"></i>
+						</blockquote>
+						<figcaption class="blockquote-footer"> Firstname Lastname <time datetime="2021-07-01">1st of
+								July 2021</time></figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+	</div>
+	<section id="section-newsletter" class="py-5 bg-secondary">
+		<div class="container">
+			<form action="" class="text-white">
+				<h2 class="display-4 text-center">Newsletter</h2>
+				<p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt animi
+					exercitationem architecto ratione?</p>
+				<div class="row">
+					<div class="col-12 col-sm-6">
+						<div class="mb-3">
+							<label for="input-name" class="sr-only">Your name:</label>
+							<input type="text" class="form-control" placeholder="Firstname Lastname" id="input-name">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6">
+						<div class="mb-3">
+							<label for="input-email" class="sr-only">Your email:</label>
+							<input type="email" class="form-control" placeholder="example@domain.com" id="input-email">
+						</div>
+					</div>
+				</div>
+				<div class="form-check">
+					<input type="checkbox" class="form-check-input" id="input-terms" value="terms">
+					<label for="input-terms" class="form-check-label">I have read and accepted the <a href="#0"
+							data-bs-target="#modal" data-bs-toggle="modal">terms and conditions</a>.</label>
+				</div>
+				<div class="d-flex justify-content-between">
+					<smal class="form-text text-white w-75">You can unsubscribe from mailing list any time. </smal>
+					<button class="btn btn-dark" type="submit">Register</button>
+				</div>
+			</form>
+			<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true" aria-label="modalTitle">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="modalTitle">Terms and conditions</h5>
+							<button class="btn-close" data-bs-dismiss="modal" aria-label="modalDismiss"
+								type="button"><span aria-hidden="true"></span></button>
+						</div>
+						<div class="modal-body">
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aspernatur deleniti odio
+								sint totam quia fugit quae, debitis doloribus atque exercitationem repellendus cumque
+								laudantium inventore nostrum? Unde necessitatibus blanditiis atque?
+								Quas doloribus, eum incidunt nobis vero fugit quos facilis perferendis maiores
+								recusandae consectetur, cumque veniam? Tenetur dolorem, atque velit molestiae deleniti
+								accusamus, omnis perspiciatis aut doloribus necessitatibus eveniet! Autem, minima!
+								Delectus dolorem accusantium, provident eligendi sint saepe praesentium aliquam eius rem
+								fugit veritatis eum tempora repellat, at, repudiandae ipsa modi iusto placeat. Harum
+								sunt quos eum rerum quod ab mollitia?
+								Repellat illo distinctio temporibus provident nihil quisquam consequatur hic nulla iusto
+								voluptate molestias sed soluta porro perspiciatis architecto quidem ut suscipit
+								similique, reprehenderit magnam cupiditate! Nisi nesciunt explicabo saepe obcaecati!
+								Voluptates explicabo dolorum suscipit illo sed nisi! Laboriosam nihil, officiis tempora
+								officia quasi quod maxime dignissimos cupiditate? Iure, quas. Earum illum error omnis
+								veniam esse ut eaque dolor obcaecati impedit!</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quasi quae, corporis
+								iusto sed nam non itaque maxime facilis inventore aspernatur tempora distinctio ipsam
+								eius officia, vel exercitationem nesciunt consequuntur!
+								Harum nemo ducimus porro illo, blanditiis magni dolor quasi quia labore exercitationem
+								qui. Eius accusantium maiores voluptas soluta ab aspernatur adipisci atque dolorum iste
+								minima eveniet asperiores, deserunt impedit sequi.
+								Maiores obcaecati quos perferendis corporis, esse accusantium necessitatibus consequatur
+								maxime, optio voluptatibus, nulla earum commodi consequuntur animi veniam. Delectus quae
+								repudiandae molestias sapiente ullam accusantium reiciendis excepturi aspernatur nemo!
+								Praesentium!
+								Dolores excepturi facere pariatur error autem nostrum adipisci iure sequi, laboriosam
+								deleniti facilis unde expedita! Modi facilis minima aut eius nulla labore provident,
+								iste quod, impedit aspernatur dicta, dignissimos obcaecati?</p>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque magni hic, adipisci ab
+								natus deleniti laboriosam blanditiis non dolor labore eius quos tempora veniam quae, sit
+								laudantium corporis inventore officiis.
+								Laudantium reiciendis, sed illo cupiditate temporibus officiis nostrum totam facilis
+								exercitationem delectus? Eum autem accusamus libero veniam voluptate delectus
+								consequatur atque consequuntur iusto eaque. Eum quod vero dicta magnam quia.
+								Alias quo adipisci recusandae ipsa unde dolores quae soluta. Necessitatibus placeat nam
+								voluptatum molestiae hic veritatis quasi incidunt ducimus? Asperiores aliquid beatae
+								laborum minima vitae possimus maxime aut placeat consequuntur.</p>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium recusandae
+								saepe, explicabo facere ipsa modi pariatur corporis ipsum assumenda. Iure sequi labore
+								incidunt qui delectus obcaecati quod sapiente nam.
+								Sapiente deserunt magni totam ea, similique nobis eius natus molestias corporis, commodi
+								quia nihil fugit minima sequi nesciunt? Cum soluta beatae sapiente dolore molestiae ab,
+								saepe culpa facilis maxime eveniet!
+								Molestiae asperiores amet sed quasi illo omnis quod dolore consequuntur? Eum autem quae
+								enim eligendi atque corporis quibusdam reprehenderit ipsum distinctio, odit impedit,
+								suscipit et iste iure necessitatibus, iusto adipisci!
+								Officiis dolorum maiores ratione pariatur neque, quia nobis aut voluptatem nemo quam
+								tempore facilis nulla expedita eveniet, possimus veniam distinctio dolore ipsam rem
+								mollitia, quaerat eaque! Fuga aliquam numquam doloribus.</p>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-light">
+		<div class="container py-3 py-sm-5">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-3">
+					<h6>Quick Links</h6>
+					<ul class="list-unstyled">
+						<li><a href="#0">Home</a></li>
+						<li><a href="#0">Whats new</a></li>
+						<li><a href="#0">Support</a></li>
+						<li><a href="#0">My account</a></li>
+						<li><a href="#0">Cancel subscription</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<h6>Information</h6>
+					<ul class="list-unstyled">
+						<li><a href="#0">About us</a></li>
+						<li><a href="#0">Jobs</a></li>
+						<li><a href="#0">Press info</a></li>
+						<li><a href="#0">Contact</a></li>
+						<li><a href="#0">Partnership</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<h6>Follow us</h6>
+					<ul class="list-unstyled">
+						<li><a href="#0"><i class="fab fa-facebook mx-1"></i>Facebook</a></li>
+						<li><a href="#0"><i class="fab fa-instagram mx-1"></i>Instagram</a></li>
+						<li><a href="#0"><i class="fab fa-twitter mx-1"></i>Twitter</a></li>
+						<li><a href="#0"><i class="fab fa-youtube mx-1"></i>Youtube</a></li>
+						<li><a href="#0"><i class="fab fa-linkedin mx-1"></i>LinkedIn</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<h6>Our location</h6>
+					<address>
+						<strong>App Name</strong><br>
+						350 5th Avenue <br>
+						New York, NY 10118 <br>
+						<i class="fas fa-fw fa-phone" aria-hidden="true"></i><span class="sr-only">Telephone:</span><a
+							href="tel:+12127363100">(212)736-3100</a><br>
+						<i class="fas fa-fw fa-inbox" aria-hidden="true"></i><span class="sr-only">Telephone:</span><a
+							href="mailto:info@mailto.com">info@mailto.com</a>
+					</address>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-9">
+					<ul class="list-inline">
+						<li class="list-inline-item">&copy; 2020 App Name, Inc.</li>
+						<li class="list-inline-item">All rights reserved.</li>
+						<li class="list-inline-item"><a href="#0" data-bs-toggle="modal" data-bs-target="#modal">Terms
+								of use and privacy policy</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<div class="dropdown dropup">
+						<button class="btn btn-secondary btn-sm dropdown-toggle" id="languageNewButton"
+							data-bs-toggle="dropdown">
+							<i class="fas fa-fw fa-language" aria-hidden="true"></i>Change language
+						</button>
+						<div class="dropdown-menu p-0">
+							<a href="#0" class="dropdown-item small px-1">English</a>
+							<a href="#0" class="dropdown-item small px-1">German</a>
+							<a href="#0" class="dropdown-item small px-1">French</a>
+							<a href="#0" class="dropdown-item small px-1">Spanish</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#section-"]', {
+			offset: 56
+		})
+	</script>
+</body>
+
+</html>
